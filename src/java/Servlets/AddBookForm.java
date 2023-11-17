@@ -26,10 +26,10 @@ public class AddBookForm extends HttpServlet {
 
         out.println("</head>");
         out.println("<body>");
-        request.getRequestDispatcher("navlibrarian.html").include(request, response);
+        request.getRequestDispatcher("navlibrarian.jsp").include(request, response);
 
         out.println("<div>");
-        request.getRequestDispatcher("addbookform.html").include(request, response);
+        request.getRequestDispatcher("addbookform.jsp").include(request, response);
         out.println("</div>");
         out.close();
     }

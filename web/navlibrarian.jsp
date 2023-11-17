@@ -65,10 +65,10 @@
     <body>
         <div>
             <div class="title">
-                <a href="index.html">eLibrary</a>
+                <a href="index.jsp">eLibrary</a>
             </div>
             <ul>
-                <li class="active"><a href="index.html">Home</a></li>
+                <li class="active"><a href="index.jsp">Home</a></li>
                 <li><a href="AddBookForm">Add Book</a></li>
                 <li><a href="ViewBook">View Book</a></li>
                 <li><a href="IssueBookForm">Issue Book</a></li>

@@ -10,7 +10,7 @@ public class DB {
             Class.forName("com.mysql.jdbc.Driver");
             Connection conn
                     = DriverManager.getConnection("jdbc:mysql://localhost:3306/library",
-                            "root", "");
+                            "root", "2004");
 
         } catch (Exception e) {
             System.out.println(e);

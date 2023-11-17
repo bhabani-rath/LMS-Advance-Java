@@ -178,12 +178,12 @@
         <header>
             <div class="nav">
                 <div class="title">
-                    <a href="index.html">eLibrary</a>
+                    <a href="index.jsp">eLibrary</a>
                 </div>
                 <ul>
-                    <li class="active"><a href="index.html">Home</a></li>
-                    <li><a href="adminloginform.html">Admin</a></li>
-                    <li><a href="librarianloginform.html">Librarian</a></li>
+                    <li class="active"><a href="index.jsp">Home</a></li>
+                    <li><a href="adminloginform.jsp">Admin</a></li>
+                    <li><a href="librarianloginform.jsp">Librarian</a></li>
                 </ul>
             </div>
         </header>

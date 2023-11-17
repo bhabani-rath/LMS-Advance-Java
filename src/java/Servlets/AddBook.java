@@ -26,7 +26,7 @@ public class AddBook extends HttpServlet {
 
         out.println("</head>");
         out.println("<body>");
-        request.getRequestDispatcher("navlibrarian.html").include(request, response);
+        request.getRequestDispatcher("navlibrarian.jsp").include(request, response);
 
         out.println("<div>");
         String callno = request.getParameter("callno");
@@ -45,7 +45,7 @@ public class AddBook extends HttpServlet {
         }
         out.println("</center>");
         out.println("</font>");
-        request.getRequestDispatcher("addbookform.html").include(request, response);
+        request.getRequestDispatcher("addbookform.jsp").include(request, response);
         out.println("</div>");
         out.close();
     }

@@ -65,13 +65,13 @@
     <body>
         <div class="nav">
             <div class="title">
-                <a href="index.html">eLibrary</a>
+                <a href="index.jsp">eLibrary</a>
             </div>
             <ul>
-                <li class="active"><a href="index.html">Home</a></li>
-                <li><a href="AddLibrarianForm">Add Librarian</a></li>
-                <li><a href="ViewLibrarian">View Librarian</a></li>
-                <li><a href="LogoutAdmin">Logout</a></li>
+                <li class="active"><a href="index.jsp">Home</a></li>
+                <li><a href="addlibrarianform.jsp">Add Librarian</a></li>
+                <li><a href="navlibrarian.jsp">View Librarian</a></li>
+                <li><a href="index.jsp">Logout</a></li>
             </ul>
         </div>
     </body>

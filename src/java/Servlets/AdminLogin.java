@@ -36,16 +36,16 @@ public class AdminLogin extends HttpServlet {
         if (email.equals("bhabanishankarr21@gmail.com") && password.equals("bhabani$2004")) {
             HttpSession session = request.getSession();
             session.setAttribute("admin", "true");
-            request.getRequestDispatcher("navadmin.html").include(request, response);
+            request.getRequestDispatcher("navadmin.jsp").include(request, response);
         } else {
-            request.getRequestDispatcher("navhome.html").include(request, response);
+            request.getRequestDispatcher("navhome.jsp").include(request, response);
             out.println("<div class='container'>");
             out.println("<center>");
             out.println("<font color='white'>");
             out.println("<br><br><br><br><br><br><br><br><br><br><br>");
             out.println("<h1>Username or password error</h1>");
             out.println("</font></center>");
-            request.getRequestDispatcher("adminloginform.html").include(request, response);
+            request.getRequestDispatcher("adminloginform.jsp").include(request, response);
             out.println("</div>");
         }
         out.close();

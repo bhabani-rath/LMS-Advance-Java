@@ -35,7 +35,7 @@ public class EditLibrarianForm extends HttpServlet {
         out.println("</head>");
         out.println("<body>");
 
-        request.getRequestDispatcher("navadmin.html").include(request, response);
+        request.getRequestDispatcher("navadmin.jsp").include(request, response);
         out.println("<div class='container'>");
         String sid = request.getParameter("id");
         int id = Integer.parseInt(sid);

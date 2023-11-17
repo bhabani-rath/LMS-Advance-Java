@@ -31,10 +31,10 @@ public class ReturnBookForm extends HttpServlet {
 
         out.println("</head>");
         out.println("<body>");
-        request.getRequestDispatcher("navlibrarian.html").include(request, response);
+        request.getRequestDispatcher("navlibrarian.jsp").include(request, response);
 
         out.println("<div>");
-        request.getRequestDispatcher("returnbookform.html").include(request, response);
+        request.getRequestDispatcher("returnbookform.jsp").include(request, response);
         out.println("</div>");
         out.close();
     }

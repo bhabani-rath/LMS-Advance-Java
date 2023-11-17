@@ -27,7 +27,7 @@ public class AddLibrarian extends HttpServlet {
         out.println("</head>");
         out.println("<body>");
 
-        request.getRequestDispatcher("navadmin.html").include(request, response);
+        request.getRequestDispatcher("navadmin.jsp").include(request, response);
         out.println("<div>");
 
         String name = request.getParameter("name");
@@ -43,7 +43,7 @@ public class AddLibrarian extends HttpServlet {
         out.print("<h1>Librarian added successfully</h1>");
         out.println("</center>");
         out.println("</font>");
-        request.getRequestDispatcher("addlibrarianform.html").include(request, response);
+        request.getRequestDispatcher("addlibrarianform.jsp").include(request, response);
         out.println("</div>");
 
         out.close();

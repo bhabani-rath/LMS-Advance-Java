@@ -36,7 +36,7 @@ public class ViewLibrarian extends HttpServlet {
         out.println("</head>");
         out.println("<body>");
 
-        request.getRequestDispatcher("navadmin.html").include(request, response);
+        request.getRequestDispatcher("navadmin.jsp").include(request, response);
         out.println("<div class='container'>");
         out.println("<center>");
         out.println("<font color='white'>");

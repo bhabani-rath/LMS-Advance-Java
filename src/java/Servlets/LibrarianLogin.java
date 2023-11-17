@@ -41,18 +41,18 @@ public class LibrarianLogin extends HttpServlet {
             HttpSession session = request.getSession();
             session.setAttribute("email", email);
 
-            request.getRequestDispatcher("navlibrarian.html").include(request, response);
+            request.getRequestDispatcher("navlibrarian.jsp").include(request, response);
 
         } else {
 
-            request.getRequestDispatcher("navhome.html").include(request, response);
+            request.getRequestDispatcher("navhome.jsp").include(request, response);
             out.println("<div class='container'>");
             out.println("<font color='white'>");
             out.println("<br><br><br><br><br><br><br>");
             out.println("<center>");
             out.println("<h1>Username or password error</h1>");
             out.println("</center></font>");
-            request.getRequestDispatcher("librarianloginform.html").include(request, response);
+            request.getRequestDispatcher("librarianloginform.jsp").include(request, response);
 
             out.println("</div>");
 

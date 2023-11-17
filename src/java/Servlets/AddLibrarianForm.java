@@ -24,9 +24,9 @@ public class AddLibrarianForm extends HttpServlet {
         out.println("</head>");
         out.println("<body>");
 
-        request.getRequestDispatcher("navadmin.html").include(request, response);
+        request.getRequestDispatcher("navadmin.jsp").include(request, response);
         out.println("<div class='container'>");
-        request.getRequestDispatcher("addlibrarianform.html").include(request, response);
+        request.getRequestDispatcher("addlibrarianform.jsp").include(request, response);
         out.println("</div>");
         out.close();
     }
